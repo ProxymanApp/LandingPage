@@ -425,7 +425,7 @@ li a i {
 header {
     position: relative;
     background: #f8f9fe;
-    padding-top: 200px;
+    padding-top: 170px;
     min-height: 100%;
     overflow: hidden;
 }
@@ -469,7 +469,7 @@ header {
     position: relative;
     right: 0;
     float: right;
-    width: 46%;
+    width: 50%;
     z-index: 2;
 
 }
