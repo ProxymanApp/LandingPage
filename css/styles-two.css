@@ -1,0 +1,104 @@
+
+/*---------------------------------------
+
+Project: Starten SaaS & Software Landing Page
+TemplateVersion: 1.0
+Author: YasirKareem
+
+01. Header
+02. Footer
+03. Responsive
+
+---------------------------------------*/
+
+
+
+/*--- Start Header ---*/
+
+.style-two {
+    position: relative;
+    background: #fff;
+    padding: 0;
+    overflow: visible;
+    margin-bottom: 235px;
+}
+
+/* Content */
+
+.content {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #f8f9fe;
+    padding: 320px 0 330px;
+    -webkit-transform: skew(0deg, -5deg) translateY(-120px);
+    -ms-transform: skew(0deg, -5deg) translateY(-120px);
+    -o-transform: skew(0deg, -5deg) translateY(-120px);
+    transform: skew(0deg, -5deg) translateY(-120px);
+}
+
+.header-text,
+.content .button {
+    text-align: center;
+    position: relative;
+    -webkit-transform: skew(0deg, 5deg);
+    -ms-transform: skew(0deg, 5deg);
+    -o-transform: skew(0deg, 5deg);
+    transform: skew(0deg, 5deg);
+}
+
+.header-text p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Mockup */
+
+.mockup {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    bottom: -234px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+
+/*--- End Header ---*/
+
+/*--- Start Footer ---*/
+
+footer {
+    position: relative;
+    padding-top: 250px;
+    background: #f8f9fe;
+    overflow: hidden;
+}
+
+.footer-tow:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    border-top: 150px solid #fff;
+    border-left: 99.1vw solid transparent;
+}
+
+/*--- End Footer ---*/
+
+/*--- Responsive ---*/
+
+@media (max-width: 991px) {
+    .footer-tow:before {
+        border-top: 90px solid #fff;
+    }
+}
+@media (max-width: 767px) {
+    .content {
+    padding: 320px 0 200px;
+    }
+}
