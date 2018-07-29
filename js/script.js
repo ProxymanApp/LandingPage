@@ -1,6 +1,6 @@
 /*---------------------------------------
 
-Project: Sulz - Creative Portfolio Template 
+Project: Sulz - Creative Portfolio Template
 TemplateVersion: 1.0
 Author: YasirKareem
 
@@ -9,10 +9,10 @@ Author: YasirKareem
     02.2 Navbar Toggle
     02.3 Navbar Collapse Hide
     02.4 Scroll Spy
-    02.5 Scroll Top 
+    02.5 Scroll Top
     02.6 testimonials
     02.7 togglePassword
-    
+
 02. Coming Soon Page
 
 ---------------------------------------*/
@@ -52,8 +52,8 @@ $(function () {
             });
         }
     });
-    
-    // scrollTop 
+
+    // scrollTop
     var scrollButton = $(".scroll-top");
     $(window).scroll(function () {
         if ($(this).scrollTop() >= 400) {
@@ -67,7 +67,7 @@ $(function () {
             scrollTop: 0
         }, 2000);
     });
-    
+
     // testimonials
     $('.owl-carousel').owlCarousel({
         items: 3,
@@ -93,11 +93,11 @@ $(function () {
             }
         }
     });
-    
+
     $("button.owl-prev, button.owl-next").parent().addClass('container');
     $(".owl-prev").html('<i class="fa fa-chevron-left"></i>');
     $(".owl-next").html('<i class="fa fa-chevron-right"></i>');
-    
+
     // togglePassword
     $(".toggle-password").on('click', function () {
         $(this).toggleClass("fa-eye fa-eye-slash");
@@ -112,22 +112,22 @@ $(function () {
 });
 
 // comingSoonPage
-var count = new Date("oct 08,2018 00:01:00").getTime();
-var x = setInterval(function () {
-    'use strict';
-    var now = new Date().getTime(),
-        d = count - now,
-        days = Math.floor(d / (1000 * 60 * 60 * 24)),
-        hours = Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-        minutes = Math.floor((d % (1000 * 60 * 60)) / (1000 * 60)),
-        seconds = Math.floor((d % (1000 * 60)) / 1000);
-
-    document.getElementById("days").innerHTML = days;
-    document.getElementById("hours").innerHTML = hours;
-    document.getElementById("minutes").innerHTML = minutes;
-    document.getElementById("seconds").innerHTML = seconds;
-
-    if (d <= 0) {
-        clearInterval(x);
-    }
-}, 1000);
+// var count = new Date("oct 08,2018 00:01:00").getTime();
+// var x = setInterval(function () {
+//     'use strict';
+//     var now = new Date().getTime(),
+//         d = count - now,
+//         days = Math.floor(d / (1000 * 60 * 60 * 24)),
+//         hours = Math.floor((d % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+//         minutes = Math.floor((d % (1000 * 60 * 60)) / (1000 * 60)),
+//         seconds = Math.floor((d % (1000 * 60)) / 1000);
+//
+//     document.getElementById("days").innerHTML = days;
+//     document.getElementById("hours").innerHTML = hours;
+//     document.getElementById("minutes").innerHTML = minutes;
+//     document.getElementById("seconds").innerHTML = seconds;
+//
+//     if (d <= 0) {
+//         clearInterval(x);
+//     }
+// }, 1000);
