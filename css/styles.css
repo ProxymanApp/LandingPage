@@ -194,6 +194,7 @@ p,
     padding: 0;
     height: 100%;
     margin: 0 15px 0 0;
+    width: 32%;
 }
 
 .navbar > .container.navbar-brand,
@@ -204,8 +205,9 @@ p,
 .logo h3 {
     color: #8d77f1;
     margin: 0;
-    padding-top: 4px;
+    padding-top: 6px;
     display: inline-block;
+    font-size: 30px;
 }
 
 .navbar-right {
@@ -467,11 +469,10 @@ header {
 
 .mockup {
     position: relative;
-    right: 0;
+    right: -69px;
     float: right;
-    width: 50%;
+    width: 56%;
     z-index: 2;
-
 }
 
 /*--- End Header ---*/
@@ -874,6 +875,10 @@ footer {
 
 .footer-img {
     margin-bottom: 25px;
+}
+
+.footer-img .footer_logo {
+    width: 15%;
 }
 
 .footer-title {
