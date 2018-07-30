@@ -18,7 +18,7 @@ Author: YasirKareem
 05. Section About
 06. Section Features
 07. Section Testimonials
-08. Section Pricing 
+08. Section Pricing
 09. Section Trial
 10. Scroll Top
 11. Footer
@@ -194,6 +194,7 @@ p,
     padding: 0;
     height: 100%;
     margin: 0 15px 0 0;
+    width: 18%;
 }
 
 .navbar > .container.navbar-brand,
@@ -204,8 +205,8 @@ p,
 .logo h3 {
     color: #8d77f1;
     margin: 0;
-    padding-top: 4px;
     display: inline-block;
+    font-size: 25px;
 }
 
 .navbar-right {
@@ -425,7 +426,7 @@ li a i {
 header {
     position: relative;
     background: #f8f9fe;
-    padding-top: 200px;
+    padding-top: 170px;
     min-height: 100%;
     overflow: hidden;
 }
@@ -467,11 +468,11 @@ header {
 
 .mockup {
     position: relative;
-    right: 0;
+    right: -69px;
     float: right;
-    width: 46%;
+    width: 56%;
     z-index: 2;
-
+    margin-top: -2%;
 }
 
 /*--- End Header ---*/
@@ -504,7 +505,7 @@ header {
     width: 100%;
     height: 376px;
     border-radius: 10px;
-    background: url('http://via.placeholder.com/670x346/8d77f1/fff') no-repeat center center;
+    background-image: url("../img/background/feature_1.png");
     background-size: cover;
     box-shadow: 0px 10px 20px 0px rgba(197, 199, 224, 0.22);
 }
@@ -874,6 +875,10 @@ footer {
 
 .footer-img {
     margin-bottom: 25px;
+}
+
+.footer-img .footer_logo {
+    width: 15%;
 }
 
 .footer-title {
