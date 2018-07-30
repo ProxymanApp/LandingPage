@@ -80,8 +80,12 @@ p,
 
 .title span {
     width: 326px;
-    display: block;
+    /* display: block; */
     margin: 0 auto;
+}
+
+.version-subtitle {
+  font-weight: 600;
 }
 
 /* Section Padding */
@@ -247,6 +251,12 @@ p,
 .navbar-default .navbar-nav > .open > a:hover {
     color: #8d77f1;
     background-color: transparent;
+}
+
+.sub-title {
+  margin-left: 32px;
+  margin-top: 8px;
+  color: #9a9a9a;
 }
 
 /* Sign Up */
@@ -860,7 +870,7 @@ input[type="password"],
 
 footer {
     position: relative;
-    padding-top: 336px;
+    padding-top: 150px;
     background: #f8f9fe;
 }
 
