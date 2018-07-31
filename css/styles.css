@@ -78,6 +78,18 @@ p,
     margin-bottom: 60px;
 }
 
+.sub-title {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+.title-changelog {
+  margin-bottom: 20px;
+  margin-top: 60px;
+  text-align: left;
+}
+
 .title span {
     width: 326px;
     /* display: block; */
@@ -1306,6 +1318,7 @@ ul li a:hover {
 
 .single-blog-text {
     margin: 0 auto;
+    padding-left: 16%;
 }
 
 .middle {
