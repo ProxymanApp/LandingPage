@@ -1329,8 +1329,9 @@ ul li a:hover {
 
 blockquote {
     padding: 0 15px 0;
-    margin: 40px 0 40px 40px;
-    font-size: 14px;
+    margin: 20px 0 20px 40px;
+    font-size: 15px;
+    line-height: 21px;
     border-left: 2px solid #8d77f1;
 }
 
@@ -1338,6 +1339,10 @@ blockquote {
 
 .blog-post-img {
     margin: 40px 0;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .blog-post-img-1 {
