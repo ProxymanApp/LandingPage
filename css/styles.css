@@ -130,6 +130,13 @@ p,
     transition: all .3s ease-in-out;
 }
 
+.download-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40% !important;
+}
+
 .learn-more {
     color: #8d77f1;
     background: #fff;
